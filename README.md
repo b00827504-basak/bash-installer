@@ -35,6 +35,16 @@ After the installation, run:
 ~/bash-exercise-venv/bin/jupyter notebook
 ```
 
+## Check the installation
+
+After running the script, I can check the tools with:
+
+```bash
+python3 --version
+python3 -m pip --version
+~/bash-exercise-venv/bin/jupyter --version
+```
+
 ## Git workflow
 
 For this exercise, I practiced these steps:
