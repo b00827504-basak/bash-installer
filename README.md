@@ -47,20 +47,21 @@ python3 -m pip --version
 
 ## Git workflow
 
-For this exercise, I practiced these steps:
+For the original local exercise, I practiced creating commits, working with a branch, and merging changes.
 
-1. Create a repository and add this README.
-2. Commit the README on the main branch.
-3. Create a branch called `feature-install`.
-4. Add `env_install.sh` and commit it.
-5. Switch back to main and merge the branch.
-6. Delete the feature branch.
-7. Upload the project to GitHub.
+The files were first uploaded to this GitHub repository together, so that original local commit history is not shown here. I later repeated a small branch workflow directly on GitHub:
+
+1. Create a branch called `feature-install` from `main`.
+2. Add installation check commands to the README and commit the change.
+3. Open pull request #1 and merge it into `main`.
+
+See [pull request #1](https://github.com/b00827504-basak/bash-installer/pull/1) for the merge record. This is a new demonstration, not the original local history.
 
 ## Project files
 
 - `README.md`: information about the project.
 - `env_install.sh`: the installation script.
 - `REFLECTIONS.md`: my answers to the Git reflection questions.
+- `GIT_COMMANDS.md`: short notes on the Git commands and steps used in this course.
 
 This exercise helped me understand how to use branches, commits, and GitHub.
